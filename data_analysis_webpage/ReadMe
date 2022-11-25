@@ -1,1 +1,10 @@
-a
+This is a data analysis webpage which analyses the given data in folder data/source_course_files.
+
+The website represents a data managment system for a higher education institute. It analyses and displays information about
+courses, students and instructors, for example, generating a graph that shows the top 10 instructors who teach the most courses.
+
+Different users have different levels of access to the information, for example, an instructor is only allowed to 
+view the courses taught by himself/herself, while an admin is able to view information about all courses,
+and can delete the whole database.
+
+The website has a sign-up and log-in function. It provides intructions when username and password are not matched.
