@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block title %}
+Student Info
+{% endblock %}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block css %}
+
+
+
+{% endblock %}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block content%}
+<div class="container">
+    <!-- student code start -->
+<!--page header-->
+    <h3>Student Details</h3>
+    <br/>
+    <br/>
+
+    <div class="">
+        <!--        creating a table to present student info-->
+        <table class="table table-striped table-hover">
+            <tr>
+                <!--the text in the <th> tags are header, including various attributes of the student object-->
+                <th style="width:25%;">Username:</th>
+                <!--   the text in the <td> tags are data cell elements, which are retrieved by getting the
+                attributes of the student object-->
+                <td>{{student_obj.username}}</td>
+            </tr>
+            <tr>
+                <th>Uid:</th>
+                <td>{{student_obj.uid}}</td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td>{{student_obj.password}}</td>
+            </tr>
+            <tr>
+                <th>Register_time:</th>
+                <td>{{student_obj.register_time}}</td>
+            </tr>
+
+            <tr>
+                <th>Role:</th>
+                <td>{{student_obj.role}}</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>{{student_obj.email}}</td>
+            </tr>
+
+        </table>
+    <!-- student code end -->
+</div>
+{% endblock%}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block js %}
+
+{% endblock %}
