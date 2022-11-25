@@ -1,7 +1,6 @@
 """
 
 Name: Dou Hong
-Student ID: 32347995
 Start date: April 29th
 Last modified date: May 6th
 
